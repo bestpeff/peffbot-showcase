@@ -1,15 +1,15 @@
-# 🎯 Peffbot Features - Complete Guide
+# Peffbot Features
 
-Complete breakdown of everything Peffbot can do for your stream.
+Everything the bot can do, organized by category.
 
 ---
 
-## 🤖 AI-Powered Features
+## AI Assistant
 
-### !peffai - Conversational AI Assistant
-**What it does:** Viewers can ask the AI questions about your stream.
+### !peffai
+Ask the AI questions about the stream. Works for everyone but mods get extra diagnostic powers.
 
-**Examples:**
+**Regular viewer examples:**
 ```
 Viewer: !peffai when does the stream start?
 Bot: Stream usually starts Mon/Wed/Fri at 7pm EST!
@@ -18,90 +18,58 @@ Viewer: !peffai what game is this?
 Bot: Rocket League - been grinding ranked for about 2 hours now.
 ```
 
-**For Mods:** Enhanced with bot diagnostics
+**Mod diagnostic example:**
 ```
 Mod: !peffai why is !weather broken?
 Bot: Weather command failing due to API timeout. Wait 5 mins and try again.
 ```
 
-**Features:**
-- Context-aware responses
-- Natural language understanding
-- Bot troubleshooting for mods
-- Rate-limited to prevent spam
+The AI has context awareness, natural language understanding, and bot troubleshooting for mods. Rate-limited to prevent spam.
 
 ---
 
-## 📊 Stream Info Commands
+## Stream Info
 
-### !followers
-Shows current follower count.
-
-### !viewers
-Shows current live viewer count.
-
-### !uptime
-Shows how long stream has been live.
-
-### !subs
-Shows subscriber count (if enabled).
-
-### !status
-Shows if stream is live, current game, title, and viewer count.
-
-### !created [username]
-Shows when a Kick account was created.
-
-### !following [username]
-Shows if someone is following the channel.
+**!followers** - Current follower count
+**!viewers** - Live viewer count
+**!uptime** - How long the stream has been live
+**!subs** - Subscriber count (if enabled)
+**!status** - Stream status, game, title, and viewer count
+**!created [username]** - When a Kick account was created
+**!following [username]** - Check if someone follows the channel
 
 ---
 
-## 🎮 Game Stats Integration
+## Game Stats
 
-### Fortnite Stats
+### Fortnite
 ```
 !fortnite <username>
 !setepic <your_username>
-!stats (auto-detects your linked profile)
+!stats (uses your linked profile)
 ```
+Shows win rate, K/D ratio, season stats, and account level.
 
-**Shows:**
-- Win rate
-- K/D ratio
-- Season stats
-- Account level
-
-### Apex Legends Stats
+### Apex Legends
 ```
 !apex <username>
 !setorigin <your_username>
 !stats
 ```
+Shows current rank, kills, wins, season performance, and platform.
 
-**Shows:**
-- Current rank
-- Kills, wins
-- Season performance
-- Platform info
-
-### Rocket League Stats
+### Rocket League
 ```
 !rocketleague <username>
 !rl <username>
 !setsteam <your_username>
 !stats
 ```
-
-**Shows:**
-- Rank by playlist
-- MMR rating
-- Win streaks
-- Season rewards level
+Shows rank by playlist, MMR rating, win streaks, and season rewards level.
 
 ### Profile Management
 ```
-!myprofiles - See your linked gaming profiles
+!myprofiles - See your linked profiles
 !setepic <name> - Link Epic Games (Fortnite)
 !setorigin <name> - Link Origin (Apex)
 !setsteam <name> - Link Steam (Rocket League)
@@ -109,22 +77,22 @@ Shows if someone is following the channel.
 
 ---
 
-## 💻 PC Specs Commands
+## PC Specs
 
-### For Viewers
+**For viewers:**
 ```
 !pc / !pcspecs / !build
 ```
-Shows broadcaster's PC specs (if set).
+Shows the broadcaster's PC build.
 
-### For Users
+**For users:**
 ```
-!setmypc - Save your own PC specs
+!setmypc - Save your own specs
 !pcsetup - View your saved specs
 !clearmypc - Delete your specs
 ```
 
-**Example:**
+Example setup:
 ```
 User: !setmypc
 Bot: DM me your specs in this format:
@@ -133,57 +101,53 @@ GPU: RTX 3090
 RAM: 32GB DDR4
 ```
 
-### For Mods/Broadcaster
+**For mods/broadcaster:**
 ```
-!pctemps - Show real-time CPU/GPU temperatures
+!pctemps - Real-time CPU/GPU temperatures
 !setpcbuild - Set broadcaster's default PC specs
 ```
 
 ---
 
-## 📱 Social Links Management
+## Social Links
 
-### Available Platforms
+**Supported platforms:**
 Instagram, Twitter (X), TikTok, Snapchat, YouTube, Discord, Twitch, Facebook, Reddit, GitHub, LinkedIn, Patreon, OnlyFans, Throne, StreamElements, PayPal, Cash App, Venmo
 
-### For Viewers
+**Viewer commands:**
 ```
-!socials - Show all social links
-!instagram - Show Instagram
-!twitter - Show Twitter
-!tiktok - Show TikTok
-!discord - Show Discord
-(etc. for any platform)
+!socials - Show all links
+!instagram, !twitter, !tiktok, !discord, etc.
 ```
 
-### For Mods
+**Mod commands:**
 ```
-!setinstagram <link> - Set Instagram link
-!settwitter <link> - Set Twitter link
-!settiktok <link> - Set TikTok link
+!setinstagram <link>
+!settwitter <link>
+!settiktok <link>
 (etc. for any platform)
 
-!socialstatus - Check which socials are set up
+!socialstatus - Check which socials are configured
 ```
 
 ---
 
-## 🔧 Mod Diagnostic Tools
+## Mod Tools
 
-### !errors (Mods Only)
-View recent command failures.
+### !errors
+Shows recent command failures so mods can troubleshoot without bugging the broadcaster.
 
-**Example:**
+Example:
 ```
 Mod: !errors
 Bot: ⚠️ Recent errors: !weather (APIError), !stats (TimeoutError) |
      Total: 2 | Use !peffai to diagnose
 ```
 
-### !peffai (Enhanced for Mods)
-Mods get access to bot diagnostics.
+### !peffai (Mod Version)
+Mods can ask the AI to diagnose bot issues and get step-by-step fixes.
 
-**Example:**
+Example:
 ```
 Mod: !peffai why is !stats broken?
 Bot: Stats command failing because user hasn't linked their profile yet.
@@ -192,64 +156,64 @@ Bot: Stats command failing because user hasn't linked their profile yet.
 
 ---
 
-## 👑 Broadcaster Commands
+## Broadcaster Commands
 
 ### Stream Management
 ```
 !title [new title] - Update stream title
 !setfollowergoal <number> - Set follower goal
 !setsubgoal <number> - Set subscriber goal
-!settimezone <timezone> - Set timezone (usually auto-detected)
+!settimezone <timezone> - Set timezone (auto-detected via OAuth)
 ```
 
 ### Authentication
 ```
-!auth - Connect Kick.com account (enables stream title updates)
-!deauth - Disconnect Kick.com account
+!auth - Connect your Kick.com account (enables title updates)
+!deauth - Disconnect account
 ```
 
 ### Bot Control
 ```
 !rejoin - Reconnect bot to channel
 !leave - Make bot leave channel
-!setmodrejoin on/off - Allow mods to use !rejoin
-!setmodleave on/off - Allow mods to use !leave
+!setmodrejoin on/off - Let mods use !rejoin
+!setmodleave on/off - Let mods use !leave
 !channelsettings - View current settings
 ```
 
 ### Analytics
 ```
-!topchatters [period] - Show most active chatters
-  Periods: hour, day, week, month, all
+!topchatters [period]
+Periods: hour, day, week, month, all
 ```
 
 ---
 
-## 🎬 Stream Interaction Commands
+## Stream Interaction
 
-### For Mods/Broadcaster
+**Mods/Broadcaster:**
 ```
 !shoutout <user> - Give a shoutout
 !hype - Hype up the chat
 !starting <minutes> - Announce stream starting soon
 ```
 
-### For Broadcaster
+**Broadcaster only:**
 ```
 !brb <reason> - Announce BRB
 !ending - Announce stream ending
 ```
 
-### For Everyone
+**Everyone:**
 ```
-!lurk - Announce lurking
+!lurk - Announce you're lurking
 ```
 
 ---
 
-## ⚙️ Custom Commands
+## Custom Commands
 
-### Admin Commands (Broadcaster Only)
+**Broadcaster only:**
 ```
 !!addcom <name> <response> - Create custom command
 !!addtimer <name> <message> - Create auto-timer
@@ -258,7 +222,7 @@ Bot: Stats command failing because user hasn't linked their profile yet.
 !!coms - Show all admin commands
 ```
 
-**Example:**
+Example:
 ```
 !!addcom discord Join our Discord: discord.gg/yourserver
 
@@ -268,77 +232,72 @@ Bot: Join our Discord: discord.gg/yourserver
 
 ---
 
-## 🛡️ Built-In Safety Features
+## Safety Features
 
-### Smart Rate Limiting
-- **Tiered cooldowns** based on user role
-- **Spam detection** with automatic muting
-- **Global rate limits** prevent bot abuse
-- **Per-user hourly limits** on AI commands
+**Smart Rate Limiting:**
+- Tiered cooldowns based on role (broadcaster > mods > VIPs > subs > regulars)
+- Spam detection with automatic handling
+- Global rate limits to prevent abuse
+- Per-user hourly limits on AI commands
 
-### Role-Based Access
-- **Broadcaster**: Full control
-- **Mods**: Diagnostic tools + moderation commands
-- **VIPs**: Reduced cooldowns
-- **Subscribers**: Reduced cooldowns
-- **Regular viewers**: Standard cooldowns
+**Role-Based Access:**
+- Broadcaster: Full control
+- Mods: Diagnostic tools + moderation commands
+- VIPs: Reduced cooldowns
+- Subscribers: Reduced cooldowns
+- Regular viewers: Standard cooldowns
 
 ---
 
-## 🚀 Advanced Features
+## Technical Features
 
-### Persistent Storage
+**Storage:**
 - Message history tracking
 - User activity monitoring
-- Error logging for diagnostics
+- Error logging
 - Custom command storage
-- SQLite database (auto-cleanup)
+- SQLite database with auto-cleanup
 
-### OAuth Integration
+**OAuth Integration:**
 - Secure Kick.com authentication
 - Automatic timezone detection
-- Token management
-- Refresh token handling
+- Token management and refresh
 
-### Real-Time Updates
+**Real-Time:**
 - Pusher WebSocket connection
 - Instant message processing
-- Live chat tracking
 - Sub-second response times
 
 ---
 
-## 📈 Coming Soon
+## Coming Soon
 
-Features in development:
 - Analytics dashboard
-- Custom AI personality
+- Custom AI personality settings
 - More game integrations
 - Enhanced mod tools
 - Stream overlay integration
 
 ---
 
-## 💡 Pro Tips
+## Tips
 
-**For Streamers:**
-1. Set up !auth first to enable title updates
-2. Configure social links during setup stream
-3. Train mods to use !errors for quick troubleshooting
-4. Use custom commands for FAQs
+**Streamers:**
+- Set up !auth first to enable title updates
+- Configure social links early
+- Train mods to use !errors for troubleshooting
+- Use custom commands for FAQs
 
-**For Mods:**
-1. Check !errors when users report issues
-2. Use !peffai to diagnose problems
-3. Learn common fixes to help faster
-4. Update social links as needed
+**Mods:**
+- Check !errors when users report issues
+- Use !peffai to diagnose problems
+- Update social links as needed
 
-**For Viewers:**
-1. Link your gaming profiles with !setepic/!setorigin/!setsteam
-2. Use !peffai to ask questions
-3. Save your PC specs with !setmypc
-4. Be patient with rate limits
+**Viewers:**
+- Link gaming profiles with !setepic/!setorigin/!setsteam
+- Use !peffai to ask questions
+- Save your PC specs with !setmypc
 
 ---
 
-**Have feature requests? Contact [@bestpeff](https://kick.com/bestpeff)!**
+Feature requests? Hit up [@bestpeff](https://kick.com/bestpeff)

@@ -1,206 +1,168 @@
-# 🤖 Peffbot - Professional Kick.com Chat Bot
+# Peffbot - Kick.com Chat Bot
 
-> The most advanced AI-powered chat bot for Kick.com streamers
+An AI-powered chat bot built specifically for Kick.com streamers.
 
 [![Status](https://img.shields.io/badge/Status-Private%20Beta-blue)](https://github.com/bestpeff/peffbot-showcase)
 [![Platform](https://img.shields.io/badge/Platform-Kick.com-green)](https://kick.com)
-[![AI](https://img.shields.io/badge/AI-Claude%20%2B%20Grok-purple)](https://anthropic.com)
 
 ---
 
-## ✨ What is Peffbot?
+## What is this?
 
-Peffbot is a next-generation chat bot built specifically for Kick.com streamers. Combining cutting-edge AI technology with robust moderation tools, Peffbot helps streamers engage their audience, automate tedious tasks, and create a better viewer experience.
+Peffbot is a chat bot I built for my own Kick stream that handles viewer questions, displays game stats, manages social links, and helps mods troubleshoot issues without bugging me mid-stream. After testing it live for a while, I'm opening it up to other streamers.
 
-**Built by a streamer, for streamers.**
-
----
-
-## 🎯 Key Features
-
-### 🤖 AI-Powered Intelligence
-- **Claude AI Integration** - Natural language understanding and context-aware responses
-- **Smart Diagnostics** - AI can troubleshoot bot issues and help mods fix problems
-- **Conversational Assistant** - Answers viewer questions about your stream
-
-### 🛡️ Mod Tools & Diagnostics
-- **Self-Service Diagnostics** - Mods can troubleshoot issues without bothering you
-- **Error Tracking** - Automatic logging of command failures
-- **Real-Time Health Checks** - Monitor bot performance
-
-### 🎮 Game Stats Integration
-- **Fortnite Stats** - Track.gg integration for live stats
-- **Apex Legends** - Player stats and season tracking
-- **Rocket League** - Rank and stats display
-- **Profile Linking** - Users link their gaming profiles once
-
-### 💻 PC Specs System
-- **Broadcaster PC Specs** - Viewers can check your build with !pc
-- **User PC Specs** - Viewers can save and share their own specs
-- **Real-Time Temps** - Live CPU/GPU temperature monitoring (mods only)
-
-### 📱 Social Links Management
-- **Multi-Platform** - Instagram, Twitter, TikTok, Discord, YouTube, and 20+ more
-- **Easy Setup** - Mods can update links with simple commands
-- **Smart Suggestions** - Bot helps you set up social links
-
-### ⚡ Advanced Features
-- **Custom Commands** - Create unlimited custom commands and timers
-- **Smart Rate Limiting** - Prevents spam while allowing power users
-- **Timezone Auto-Detection** - Automatic timezone setup via OAuth
-- **Goal Tracking** - Follower and subscriber goal displays
-- **Top Chatters** - Analytics for most active viewers
-- **Persistent Storage** - SQLite database for reliability
+Built by a streamer who got tired of answering the same questions 50 times per stream.
 
 ---
 
-## 📊 Command Categories
+## Main Features
 
-- **Info Commands**: !followers, !viewers, !uptime, !subs, !created
-- **Game Stats**: !stats, !fortnite, !apex, !rocketleague
-- **PC Specs**: !pc, !pcspecs, !build, !pctemps
-- **Social Links**: !socials, !instagram, !twitter, !tiktok, !discord
-- **Stream Control**: !title, !setfollowergoal, !setsubgoal (broadcaster/mods)
-- **AI Assistant**: !peffai <question> - Ask the AI anything
-- **Diagnostics**: !errors (mods) - View recent command failures
-- **Custom Commands**: Create your own with !!addcom
+**AI Assistant (!peffai)**
+- Viewers can ask questions and get actual helpful responses (powered by Claude AI)
+- Mods can use it to diagnose bot issues and get troubleshooting steps
+- Handles common stream questions automatically
+
+**Game Stats**
+- Fortnite, Apex Legends, and Rocket League stats
+- Viewers link their profiles once with !setepic, !setorigin, or !setsteam
+- Then just use !stats to pull up their current rank/stats
+
+**PC Specs System**
+- Set your build once, viewers can check it with !pc
+- Viewers can save their own specs too
+- Real-time CPU/GPU temps for mods (!pctemps)
+
+**Social Links**
+- Support for 20+ platforms (Instagram, Twitter, TikTok, Discord, YouTube, etc)
+- Mods can update links without broadcaster intervention
+- Simple commands like !discord, !twitter, !instagram
+
+**Mod Tools**
+- !errors command shows recent failures
+- AI can help diagnose what's broken
+- Mods can fix most issues without waiting for you
+
+**Custom Commands**
+- Create your own commands with !!addcom
+- Set up auto-timers
+- Standard stuff you'd expect from a bot
 
 ---
 
-## 🎥 See It In Action
+## Commands
 
-### Live Demo
+Basic commands: !followers, !viewers, !uptime, !subs, !created
+Game stats: !stats, !fortnite, !apex, !rocketleague
+PC specs: !pc, !pcspecs, !build
+Social links: !socials, !instagram, !twitter, !tiktok, !discord
+AI help: !peffai <question>
+Mod tools: !errors
+
+Full command list available in [FEATURES.md](FEATURES.md)
+
+---
+
+## See it live
+
 Chat with Peffbot at: **[kick.com/bestpeff](https://kick.com/bestpeff)**
 
-### Screenshots
+---
 
-*Coming soon - screenshots of commands in action*
+## Why invite-only?
+
+Right now I'm manually adding channels because:
+- API costs aren't cheap (Claude + other services add up)
+- Want to make sure it works well for everyone before scaling
+- Gives me time to add features streamers actually request
+- Better support when there's fewer channels to manage
 
 ---
 
-## 💡 Why Peffbot?
+## Getting access
 
-### **For Streamers:**
-- ✅ **Save Time** - Automate repetitive tasks
-- ✅ **Better Engagement** - AI responds to viewers naturally
-- ✅ **Professional Look** - Polished bot commands make your stream look pro
-- ✅ **Easy Management** - Set it and forget it
+Currently in private beta. If you're interested, hit me up:
 
-### **For Mods:**
-- ✅ **Self-Service Tools** - Fix issues without waiting for broadcaster
-- ✅ **AI Assistance** - Get help troubleshooting problems
-- ✅ **Error Visibility** - See what's broken and why
-
-### **For Viewers:**
-- ✅ **Instant Info** - Get stream info, stats, and socials instantly
-- ✅ **AI Chat** - Ask questions and get helpful answers
-- ✅ **Interactive** - Save your own PC specs, link gaming profiles
-
----
-
-## 🔒 Availability
-
-**Peffbot is currently in private beta.**
-
-Access is invite-only and channels are manually added by the developer.
-
-### Why Invite-Only?
-- Quality control and personalized support
-- Resource management (API costs)
-- Focused feedback from early adopters
-- Ensuring bot runs perfectly before scaling
-
-### Interested in Using Peffbot?
-
-**Contact:**
-- X (Twitter): [@bestpeff](https://x.com/bestpeff)
+- X: [@bestpeff](https://x.com/bestpeff)
 - Discord: [https://discord.gg/zvFJFQjY](https://discord.gg/zvFJFQjY)
 - Kick: [@bestpeff](https://kick.com/bestpeff)
 
+I manually review each request - just want to make sure it's a good fit.
+
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
-**AI & Intelligence:**
-- Claude (Anthropic) - Advanced AI reasoning and diagnostics
-- Grok AI - Conversational responses
+Python 3.10+ with Kick.com API and Pusher WebSockets for real-time chat.
 
-**Platform:**
-- Python 3.10+
-- Kick.com API
-- Pusher WebSockets (real-time chat)
-- SQLite (persistent storage)
+**AI:**
+- Claude (Anthropic) for diagnostics and smart responses
+- Grok AI for conversational stuff
+
+**Storage:**
+- SQLite for persistence
 
 **Integrations:**
-- Tracker.gg (game stats)
-- Multiple social platforms
-- OAuth 2.0 authentication
+- Tracker.gg for game stats
+- OAuth 2.0 for authentication
 
 ---
 
-## 📈 Development Status
+## Current Status
 
-**Current Version:** 1.0.2
+**Version:** 1.0.2 (Released December 2025)
 
-**Recent Updates:**
-- ✅ Enhanced AI diagnostics for mods
-- ✅ Message database with spam detection
-- ✅ Role-based AI access (mods vs viewers)
-- ✅ Persistent error tracking
-- ✅ Auto-cleanup for performance
+Recently added:
+- Better AI diagnostics for mods
+- Message database with spam detection
+- Role-based AI access
+- Error tracking for easier troubleshooting
 
-**Upcoming Features:**
-- 🔄 Analytics dashboard
-- 🔄 Custom AI personality settings
-- 🔄 Enhanced mod permissions
-- 🔄 Multi-channel management tools
-
----
-
-## ❓ FAQ
-
-### **Is Peffbot free?**
-For invite-only beta users, yes! Future pricing TBD.
-
-### **Can I host it myself?**
-No, Peffbot is a hosted service. Code is proprietary.
-
-### **What makes Peffbot different?**
-- Built specifically for Kick.com (not a Twitch port)
-- AI-powered diagnostics and troubleshooting
-- Active development by an actual streamer
-- Personalized support and feature requests
-
-### **How do I get access?**
-Contact me directly. I manually review each request to ensure good fit.
-
-### **Does it work on Twitch?**
-No, Peffbot is built exclusively for Kick.com.
+Working on:
+- Analytics dashboard
+- Custom AI personality settings
+- Better mod permission controls
+- Multi-channel management tools
 
 ---
 
-## 📜 License
+## FAQ
+
+**Is it free?**
+Yes for beta users. Pricing TBD if I open it up publicly.
+
+**Can I self-host?**
+No, it's a hosted service. Code is proprietary.
+
+**What makes this different from other bots?**
+Built specifically for Kick (not a Twitch port). Has AI-powered diagnostics so mods can fix issues themselves. Active development based on real streamer feedback.
+
+**Does it work on Twitch?**
+No, Kick.com only.
+
+---
+
+## License
 
 © 2025 bestpeff - All Rights Reserved
 
-Peffbot is proprietary software. Unauthorized use, copying, or distribution is prohibited.
+Peffbot is proprietary software. No unauthorized use or distribution.
 
 ---
 
-## 🤝 Support
+## Support
 
-Having issues or questions?
+Questions or issues?
 
-- 💬 **Live Support**: Available during streams at [kick.com/bestpeff](https://kick.com/bestpeff)
-- 🐦 **X (Twitter)**: [@bestpeff](https://x.com/bestpeff)
-- 💬 **Discord**: [https://discord.gg/zvFJFQjY](https://discord.gg/zvFJFQjY)
-
----
-
-## 🌟 Testimonials
-
-Peffbot was released in December 2025 and is still building testimonials. Looking to add streamers!
+- Live during streams: [kick.com/bestpeff](https://kick.com/bestpeff)
+- X: [@bestpeff](https://x.com/bestpeff)
+- Discord: [https://discord.gg/zvFJFQjY](https://discord.gg/zvFJFQjY)
 
 ---
 
-**Built for the Kick.com community**
+## Testimonials
+
+Released December 2025, still collecting testimonials from beta users. Looking to add more streamers.
+
+---
+
+Built for the Kick.com community
