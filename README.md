@@ -47,9 +47,9 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 - Protects against bot abuse and API spam
 
 **Custom Commands**
-- Create your own commands with !!addcom
-- Set up auto-timers
-- Standard stuff you'd expect from a bot
+- Create your own commands with !addcom, !editcom, !delcom
+- Set up auto-timers for periodic messages
+- Channel-specific or manage existing commands easily
 
 ---
 

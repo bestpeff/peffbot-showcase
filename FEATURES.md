@@ -213,22 +213,26 @@ Periods: hour, day, week, month, all
 
 ## Custom Commands
 
-**Broadcaster only:**
+**Broadcaster/Mod commands:**
 ```
-!!addcom <name> <response> - Create custom command
-!!addtimer <name> <message> - Create auto-timer
-!!delcom <name> - Delete command
-!!listcoms - List all custom commands
-!!coms - Show all admin commands
+!addcom <name> <response> - Create custom command for your channel
+!editcom <name> <new_response> - Edit existing command
+!delcom <name> - Delete command
+!listcoms - List all custom commands
 ```
 
 Example:
 ```
-!!addcom discord Join our Discord: discord.gg/yourserver
+Broadcaster: !addcom discord Join our Discord: discord.gg/yourserver
 
 User: !discord
 Bot: Join our Discord: discord.gg/yourserver
 ```
+
+**Advanced features:**
+- Commands are channel-specific by default
+- Mods can create/edit commands if broadcaster allows it
+- Auto-timers available for broadcasting messages periodically
 
 ---
 
