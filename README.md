@@ -21,9 +21,10 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 - Handles common stream questions automatically
 
 **Game Stats**
-- Fortnite, Apex Legends, and Rocket League stats
+- Fortnite, Apex Legends, Rocket League, and CS:GO/CS2 stats
 - Viewers link their profiles once with !setepic, !setorigin, or !setsteam
 - Then just use !stats to pull up their current rank/stats
+- CS:GO players use !csgo or !cs2 with their Steam ID
 
 **Social Links**
 - Support for 20+ platforms (Instagram, Twitter, TikTok, Discord, YouTube, etc)
@@ -51,7 +52,7 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 ## Commands
 
 Basic commands: !followers, !viewers, !uptime, !subs, !created
-Game stats: !stats, !fortnite, !apex, !rocketleague
+Game stats: !stats, !fortnite, !apex, !rocketleague, !csgo, !cs2
 Social links: !socials, !instagram, !twitter, !tiktok, !discord
 AI help: !peffai <question>
 Mod tools: !errors

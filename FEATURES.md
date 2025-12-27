@@ -67,12 +67,25 @@ Shows current rank, kills, wins, season performance, and platform.
 ```
 Shows rank by playlist, MMR rating, win streaks, and season rewards level.
 
+### CS:GO / Counter-Strike 2
+```
+!csgo <steam_id_or_url>
+!cs2 <steam_id_or_url>
+!counterstrike <steam_id_or_url>
+```
+Shows K/D ratio, headshot %, wins, MVPs, and total matches.
+
+**How to use:**
+- Enter your Steam ID64 (e.g., `76561198012345678`) or custom URL (e.g., `shroud`)
+- Your Steam profile must be set to public
+- Uses official Steam API for accurate stats
+
 ### Profile Management
 ```
 !myprofiles - See your linked profiles
 !setepic <name> - Link Epic Games (Fortnite)
 !setorigin <name> - Link Origin (Apex)
-!setsteam <name> - Link Steam (Rocket League)
+!setsteam <name> - Link Steam (Rocket League & CS:GO)
 ```
 
 ---
