@@ -272,11 +272,11 @@ Bot: Join our Discord: discord.gg/yourserver
 
 ## Coming Soon
 
-- Analytics dashboard
-- Custom AI personality settings
-- More game integrations
-- Enhanced mod tools
-- Stream overlay integration
+- Analytics dashboard for tracking viewer activity and top chatters over time
+- Train the bot to match your channel's personality and humor style
+- More game integrations (Valorant, Call of Duty, Counter-Strike)
+- Enhanced mod tools (better error diagnostics, command testing)
+- Stream overlay widgets showing bot stats and top commands
 
 ---
 

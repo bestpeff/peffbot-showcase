@@ -118,10 +118,10 @@ Recently added:
 - Error tracking for easier troubleshooting
 
 Working on:
-- Analytics dashboard
-- Custom AI personality settings
-- Better mod permission controls
-- Multi-channel management tools
+- Analytics dashboard for viewer activity and engagement
+- Train the bot to match your channel's personality and humor
+- Granular mod permission controls (let specific mods do specific things)
+- Multi-channel management for streamers running multiple channels
 
 ---
 
