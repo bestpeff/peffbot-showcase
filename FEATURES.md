@@ -232,20 +232,28 @@ Bot: Join our Discord: discord.gg/yourserver
 
 ---
 
-## Safety Features
+## Spam Protection & Safety
+
+**Advanced Spam Filtering:**
+- Automatically detects and filters duplicate messages
+- Catches link spam and repeated commands
+- Smart detection for emote spam and short message floods
+- Won't store obvious spam in the database (keeps things clean)
+- Works silently - no annoying "stop spamming" messages in chat
 
 **Smart Rate Limiting:**
-- Tiered cooldowns based on role (broadcaster > mods > VIPs > subs > regulars)
-- Spam detection with automatic handling
-- Global rate limits to prevent abuse
-- Per-user hourly limits on AI commands
+- Different cooldowns per role (broadcaster > mods > VIPs > subs > regulars)
+- Prevents command spam without punishing legitimate users
+- Global rate limits protect against bot abuse
+- Per-user hourly limits on expensive AI commands (keeps API costs down)
+- Power users (subs/VIPs) get faster access without breaking things
 
 **Role-Based Access:**
-- Broadcaster: Full control
+- Broadcaster: Full control over everything
 - Mods: Diagnostic tools + moderation commands
 - VIPs: Reduced cooldowns
 - Subscribers: Reduced cooldowns
-- Regular viewers: Standard cooldowns
+- Regular viewers: Standard cooldowns (fair but protected)
 
 ---
 

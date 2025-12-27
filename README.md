@@ -42,6 +42,12 @@ Built by a streamer who got tired of answering the same questions 50 times per s
 - AI can help diagnose what's broken
 - Mods can fix most issues without waiting for you
 
+**Spam Protection**
+- Smart rate limiting that actually works (different cooldowns per role)
+- Detects and filters duplicate messages automatically
+- Prevents command spam without annoying regular viewers
+- Protects against bot abuse and API spam
+
 **Custom Commands**
 - Create your own commands with !!addcom
 - Set up auto-timers
