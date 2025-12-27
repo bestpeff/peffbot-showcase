@@ -70,7 +70,7 @@ Peffbot is a next-generation chat bot built specifically for Kick.com streamers.
 ## 🎥 See It In Action
 
 ### Live Demo
-Watch Peffbot live at: **[kick.com/bestpeff](https://kick.com/bestpeff)**
+Chat with Peffbot at: **[kick.com/bestpeff](https://kick.com/bestpeff)**
 
 ### Screenshots
 
@@ -113,9 +113,9 @@ Access is invite-only and channels are manually added by the developer.
 ### Interested in Using Peffbot?
 
 **Contact:**
-- Discord: [Your Discord]
+- X (Twitter): [@bestpeff](https://x.com/bestpeff)
+- Discord: [https://discord.gg/zvFJFQjY](https://discord.gg/zvFJFQjY)
 - Kick: [@bestpeff](https://kick.com/bestpeff)
-- Email: [Your Email]
 
 ---
 
@@ -192,17 +192,15 @@ Peffbot is proprietary software. Unauthorized use, copying, or distribution is p
 Having issues or questions?
 
 - 💬 **Live Support**: Available during streams at [kick.com/bestpeff](https://kick.com/bestpeff)
-- 📧 **Email**: [Your Email]
-- 💬 **Discord**: [Your Discord]
+- 🐦 **X (Twitter)**: [@bestpeff](https://x.com/bestpeff)
+- 💬 **Discord**: [https://discord.gg/zvFJFQjY](https://discord.gg/zvFJFQjY)
 
 ---
 
 ## 🌟 Testimonials
 
-*"Best bot on Kick, hands down." - [Streamer Name]*
-
-*Want your testimonial here? Contact me after using Peffbot!*
+Peffbot was released in December 2025 and is still building testimonials. Looking to add streamers!
 
 ---
 
-**Built with ❤️ by [@bestpeff](https://kick.com/bestpeff)**
+**Built for the Kick.com community**
