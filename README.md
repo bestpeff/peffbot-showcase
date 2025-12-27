@@ -22,7 +22,7 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 
 **Game Stats**
 - Fortnite, Apex Legends, Rocket League, and CS:GO/CS2 stats
-- Viewers link their profiles once with !setepic, !setorigin, or !setsteam
+- Viewers link profiles: !setepic (Fortnite/Rocket League), !setorigin (Apex), !setsteam (CS:GO)
 - Then just use !stats to pull up their current rank/stats
 - CS:GO players use !csgo or !cs2 with their Steam ID
 

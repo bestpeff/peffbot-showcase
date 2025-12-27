@@ -62,10 +62,12 @@ Shows current rank, kills, wins, season performance, and platform.
 ```
 !rocketleague <username>
 !rl <username>
-!setsteam <your_username>
+!setepic <your_username> (Rocket League uses Epic Games now)
 !stats
 ```
 Shows rank by playlist, MMR rating, win streaks, and season rewards level.
+
+**Note:** Rocket League now uses Epic Games accounts. Link with !setepic.
 
 ### CS:GO / Counter-Strike 2
 ```
@@ -83,9 +85,9 @@ Shows K/D ratio, headshot %, wins, MVPs, and total matches.
 ### Profile Management
 ```
 !myprofiles - See your linked profiles
-!setepic <name> - Link Epic Games (Fortnite)
-!setorigin <name> - Link Origin (Apex)
-!setsteam <name> - Link Steam (Rocket League & CS:GO)
+!setepic <name> - Link Epic Games (Fortnite & Rocket League)
+!setorigin <name> - Link Origin (Apex Legends)
+!setsteam <name> - Link Steam (CS:GO only)
 ```
 
 ---
