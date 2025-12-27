@@ -25,11 +25,6 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 - Viewers link their profiles once with !setepic, !setorigin, or !setsteam
 - Then just use !stats to pull up their current rank/stats
 
-**PC Specs System**
-- Set your build once, viewers can check it with !pc
-- Viewers can save their own specs too
-- Real-time CPU/GPU temps for mods (!pctemps)
-
 **Social Links**
 - Support for 20+ platforms (Instagram, Twitter, TikTok, Discord, YouTube, etc)
 - Mods can update links without broadcaster intervention
@@ -57,10 +52,10 @@ Peffbot is a chat bot I built for my own Kick stream that handles viewer questio
 
 Basic commands: !followers, !viewers, !uptime, !subs, !created
 Game stats: !stats, !fortnite, !apex, !rocketleague
-PC specs: !pc, !pcspecs, !build
 Social links: !socials, !instagram, !twitter, !tiktok, !discord
 AI help: !peffai <question>
 Mod tools: !errors
+Custom commands: !addcom, !editcom, !delcom, !listcoms
 
 Full command list available in [FEATURES.md](FEATURES.md)
 

@@ -77,38 +77,6 @@ Shows rank by playlist, MMR rating, win streaks, and season rewards level.
 
 ---
 
-## PC Specs
-
-**For viewers:**
-```
-!pc / !pcspecs / !build
-```
-Shows the broadcaster's PC build.
-
-**For users:**
-```
-!setmypc - Save your own specs
-!pcsetup - View your saved specs
-!clearmypc - Delete your specs
-```
-
-Example setup:
-```
-User: !setmypc
-Bot: DM me your specs in this format:
-CPU: AMD Ryzen 9 5950X
-GPU: RTX 3090
-RAM: 32GB DDR4
-```
-
-**For mods/broadcaster:**
-```
-!pctemps - Real-time CPU/GPU temperatures
-!setpcbuild - Set broadcaster's default PC specs
-```
-
----
-
 ## Social Links
 
 **Supported platforms:**
