@@ -11,8 +11,6 @@ An AI-powered chat bot built specifically for Kick.com streamers.
 
 Peffbot is a chat bot I built for my own Kick stream that handles viewer questions, displays game stats, manages social links, and helps mods troubleshoot issues without bugging me mid-stream. After testing it live for a while, I'm opening it up to other streamers.
 
-Built by a streamer who got tired of answering the same questions 50 times per stream.
-
 ---
 
 ## Main Features
